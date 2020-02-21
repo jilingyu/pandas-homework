@@ -23,3 +23,21 @@ pretty_print('dsize', int_array1.dtype)
 a = np.arange(13)
 b = np.random.rand(23)
 
+c = np.zeros((3, 3))
+d = np.random.rand((3, 3))
+
+e = np.ones(20) * 7
+
+f = (np.ones(20) * 7).reshape(4,5)
+
+g = np.ones((6, 6))*36
+print(g[0,0])
+
+print(g[:,4])
+print(g[:,5])
+for i in range(2,3):
+    print(g[i,2])
+    print(g[i,3])
+
+for i in range(0,5):
+    print(np.sum(g[:;i]))
